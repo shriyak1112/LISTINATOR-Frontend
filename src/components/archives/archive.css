@@ -1,0 +1,76 @@
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+  }
+  
+  .flex-container-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+  }
+  
+  .flex-item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 0px;
+    font-size: 1em;
+  }
+  
+  input.flex-item{
+    margin-right:0.5em;
+  }
+  
+  .note-delete-button {
+    background: #fff;
+  }
+  
+  .add-note-input {
+    position: relative;
+  }
+  
+  .add-icon {
+    position: absolute !important;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px !important;
+    height: 36px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .delete-content-item {
+    cursor: pointer;
+  }
+  
+  .drawer .MuiPaper-root {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .logout-container {
+    justify-content: flex-start;
+    gap: 1.3em;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    margin-left: 14px;
+    position: absolute;
+    bottom: 0px;
+    padding: 0.3em;
+    transition: 0.3s ease-in-out;
+    border-radius: 2px;
+  }
+  .logout-container:hover{
+    cursor: pointer;
+  }
